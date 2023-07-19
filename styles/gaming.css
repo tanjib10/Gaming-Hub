@@ -135,7 +135,7 @@ nav {
   font-weight: 700;
   margin-bottom: 10px;
 }
-.funny {
+.primary-pink {
   color: #f948b2;
   font-size: 2.5rem;
   font-weight: 700;
@@ -165,4 +165,30 @@ nav {
   color: #534c64;
   font-size: 1rem;
   font-weight: 500;
+}
+.play-instantly {
+  margin-top: 100px;
+}
+.container-instantly {
+  display: flex;
+  gap: 30px;
+}
+.instant-img img {
+  width: 90%;
+}
+.instant-content {
+  margin-left: 100px;
+  width: 60%;
+  padding-right: 50px;
+}
+.badge {
+  position: relative;
+  bottom: 200px;
+  right: 70px;
+}
+.badge img {
+  width: 220px;
+}
+.badge-container img {
+  width: 250px;
 }
