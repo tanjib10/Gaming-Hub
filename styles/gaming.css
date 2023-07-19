@@ -167,11 +167,39 @@ nav {
   width: 90%;
 }
 .card {
+  margin-bottom: 10px;
   width: 100%;
   margin-left: 20px;
   margin-top: 30px;
 }
+.content img {
+  width: 80px;
+}
+.content p {
+  color: #0b0223;
+}
 
+.overlay {
+  display: none;
+  position: relative;
+  bottom: 300px;
+  left: 100px;
+  background-color: #0b0223;
+  transition: opacity 0.4s ease-in-out;
+}
+.card:hover {
+  opacity: 0.7;
+}
+.card:hover .overlay {
+  transition: opacity 0.4s ease-in-out;
+  cursor: pointer;
+  display: inline;
+  background-color: #0b0223;
+  opacity: 0.9;
+  color: rgb(198, 167, 198);
+}
+.card:hover {
+}
 .card p {
   width: 80%;
   color: #534c64;

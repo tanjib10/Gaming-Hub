@@ -31,6 +31,9 @@
   .card-container {
     flex-direction: column;
   }
+  .card {
+    margin-bottom: 10px;
+  }
   .container-instantly {
     flex-direction: column;
   }
