@@ -57,6 +57,10 @@ nav {
   border-radius: 8px;
   background: rgba(11, 2, 35, 0.1);
 }
+.follow-us:hover {
+  cursor: pointer;
+  background-color: #ff42a5;
+}
 .banner-container {
   width: 100%;
   display: flex;
@@ -108,6 +112,10 @@ nav {
   background: #ff42a5;
   margin-left: 100px;
 }
+.btn-sign-in:hover {
+  cursor: pointer;
+  background-color: #0b0223;
+}
 .btn-rogue {
   color: #fff;
   font-size: 1rem;
@@ -119,6 +127,10 @@ nav {
   border-radius: 48px;
   background-color: #4ec5f7;
   margin-left: 10px;
+}
+.btn-rogue:hover {
+  cursor: pointer;
+  background-color: coral;
 }
 
 /* main section */
@@ -237,6 +249,7 @@ nav {
 footer {
   background: #0b0223;
   margin-top: 150px;
+  padding-bottom: 80px;
 }
 .footer-container img {
   width: 80px;
@@ -253,4 +266,50 @@ footer {
   text-align: center;
   font-size: 2.5rem;
   font-weight: 700;
+}
+.about-us {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 55px;
+}
+.about-us p {
+  color: white;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.icon-container {
+  display: flex;
+  margin-top: 30px;
+  justify-content: center;
+  gap: 30px;
+}
+.icon-container img {
+  width: 40px;
+  padding: 10px;
+}
+.icon-container button {
+  border-radius: 30%;
+}
+.icon-container button:hover {
+  cursor: pointer;
+  background-color: #ff42a5;
+  border-radius: 80%;
+}
+#terms {
+  padding-right: 10px;
+}
+#terms p {
+  color: rgba(255, 255, 255, 0.6);
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+}
+#footer-end {
+  color: rgba(255, 255, 255, 0.6);
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+  padding-top: 70px;
 }
