@@ -28,6 +28,9 @@
   .btn-sign-in {
     margin-left: 50px;
   }
+  .card-container {
+    flex-direction: column;
+  }
 }
 
 /* for tabs */
@@ -53,5 +56,19 @@
   }
   .banner-img {
     width: 100%;
+  }
+  .banner-title,
+  .banner-desc,
+  .btn-sign-in {
+    margin-left: 200px;
+  }
+  .card-container {
+    flex-wrap: wrap;
+  }
+  .card {
+    margin-left: 160px;
+  }
+  .card img {
+    width: 70%;
   }
 }
