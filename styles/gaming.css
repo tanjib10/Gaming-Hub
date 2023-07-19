@@ -1,3 +1,122 @@
-header {
-  background-color: black;
+nav {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+  margin-left: 100px;
+}
+.logo-container img {
+  width: 70px;
+  height: 40px;
+}
+.logo-container p {
+  margin-left: 15px;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #0b0223;
+}
+.hub-title {
+  color: rgb(247, 93, 119);
+}
+.menu-container {
+  margin-right: 100px;
+  display: flex;
+  align-items: center;
+}
+.menu-container ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+.menu-container ul li {
+  margin-left: 50px;
+}
+.menu-container ul li img {
+  width: 18px;
+  margin-left: 15px;
+}
+.menu-container ul li a {
+  text-decoration: none;
+  color: #3c354f;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.follow-us {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.1);
+}
+.banner-container {
+  width: 100%;
+  display: flex;
+}
+.banner-content {
+  width: 50%;
+  background-image: url(../images/Group\ 14.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 50px;
+  text-align: left;
+}
+.banner-img {
+  width: 45%;
+}
+.banner-img img {
+  width: 100%;
+}
+.banner-title {
+  margin-left: 100px;
+  color: #0b0223;
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.goat-title {
+  font-size: 4.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: rgb(141, 73, 141);
+}
+.banner-desc {
+  margin-top: 20px;
+  color: #534c64;
+  font-size: 1rem;
+  font-weight: 500;
+  text-transform: lowercase;
+  margin-left: 100px;
+}
+.btn-sign-in {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-top: 30px;
+  border: none;
+  padding: 25px;
+  border-radius: 48px;
+  background: #ff42a5;
+  margin-left: 100px;
+}
+.btn-rogue {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-top: 30px;
+  border: none;
+  padding: 25px;
+  border-radius: 48px;
+  background-color: #4ec5f7;
+  margin-left: 10px;
 }
